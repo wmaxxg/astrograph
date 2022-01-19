@@ -1,0 +1,145 @@
+@media (max-width:1560px)
+{
+    .header-content{
+        grid-template-columns: 20% 50% 20%;
+    }
+    h3
+    {
+        font-size: 50px;
+    }
+    .news-content
+    {
+        grid-template-columns: 45% 7.5% 7.5% 35%;
+        grid-template-areas: ". . . ."
+                         "newsTitle newsTitle  . . "
+                         "newsTitle newsTitle lastNews lastNews"
+                         "newsDesc . lastNews lastNews"
+                         "newsDesc . lastDesc lastDesc"
+                         ". . . ."
+                         "newsButton newsButton newsButton newsButton";
+    }
+    .news h3
+    {
+        width: 100%;
+        margin: none;
+        font-size: 50px;
+    }
+    .news button
+    {
+        width: 30%;
+        font-size: 30px;
+    }
+    .gallery-tile p
+    {
+        display: none;
+    }
+    .gallery-tile button
+    {
+        margin: 10px 0;
+        font-size: 28px;
+        width: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .header-content
+    {
+        display: block;
+        min-height: 600px;
+    }
+    h2
+    {
+        display: none;
+    }
+    h1
+    {
+        font-size: 20vw;
+        width: 60%;
+        margin: 10% auto;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+    .news
+    {
+        padding: 50px 0;
+    }
+    .news-content
+    {
+        display: flex;
+        flex-direction: column;
+        min-height: 850px;
+    }
+    .news h3
+    {
+        width: 55%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .news p
+    {
+        width: 80%;
+        margin: 50px auto 100px auto;
+    }
+    .news button
+    {
+        width: 60%;
+    }
+    .news button img
+    {
+        height: 20px;
+    }
+    .gallery-content
+    {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 70px;
+    }
+    .gallery h3
+    {
+        text-align: center;
+    }
+    .pic2,.pic3,.pic4
+    {
+        display: none;
+    }
+    .gallery img
+    {
+        width: 60%;
+        margin: 20px auto;
+    }
+    .gallery button
+    {
+        position: absolute;
+        bottom: 0;
+        width: 60%;
+        margin: 0 20%;
+        height: 50px;
+    }
+}
+@media(max-width:800px)
+{
+    nav
+    {
+        padding: 10px 0;
+        position: fixed;
+        background-color: #0E111E;
+        top: unset !important;
+        bottom: 0;
+        width: 100%;
+    }
+    nav ul
+    {
+        display: none;
+    }
+    nav img
+    {
+        display: block;
+        height: 90px;
+        margin: 0 auto;
+    }
+    nav ul li
+    {
+        border: none;
+        margin: 0 auto;
+    }
+}

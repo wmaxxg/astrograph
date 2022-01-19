@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Wojciech Giermanek">
+        <meta name="keywords" content="what's new in astronomy, astronomy, space, news, space news">
+        <meta name="description" content="In astrograpth we serve to you all the fresh news from the world seen from telescope. Look up and enhoy the knowledge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsivness.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        <title>Astrograph - the best space news</title>
+    </head>
+    <body>
+        <header>
+            <img src="./img/header.jpg" class="bgimage" alt="image-of-the-planet-earth">
+            <div class="header-content">
+                <h1 id="home">ASTROGRAPH</h1>
+                <h2>Here ends the world we know</h2>
+            </div>
+            <div class="header-content-mobile">
+                <h2 id="home">ASTRO</h2>
+                <h2>GRAPH</h2>
+            </div>
+            <nav>
+                <img src="./img/burger.png" alt="burger-menu-button">                
+                <ul>
+                    <li><a href="#home">Główna</a></li>
+                    <li><a href="#articles">Artykuły</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#shop">Sklep</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="introduction">
+            <div class="introduction-content">
+                <h3>A little bit about what are we doing.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin vestibulum faucibus. 
+                    Integer mattis odio non augue gravida, eget vestibulum velit tincidunt. Etiam iaculis vulputate cursus. 
+                    Vestibulum ut metus non ligula vestibulum molestie. Vestibulum facilisis, sapien varius semper convallis, 
+                    dui metus suscipit enim, vel tempus diam eros eget diam. Donec nec nulla cursus, iaculis ante vel, 
+                    efficitur nunc. In et ultricies erat, et auctor dui. Ut convallis vitae felis at pellentesque. Cras eget 
+                    velit in purus porttitor sodales. Nullam fringilla nulla vitae justo semper, sed condimentum elit porttitor. 
+                    Nam tempus scelerisque pharetra. Vestibulum porta metus consectetur tortor tristique luctus. Nam et lectus 
+                    at mauris tempus finibus id quis leo.
+                </p>
+            </div>
+        </section>
+        <section id="articles" class="news">
+            <img src="./img/galaxy.jpg" class="bgimage" alt="image-of-an-galaxy">
+            <div class="news-content">
+                <h3>We got thousands of news for you!</h3>
+                <p class="newsDesc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin vestibulum faucibus. 
+                    Integer mattis odio non augue gravida.
+                </p>
+                <h4>Did you know that</h4>
+                <p class="lastDesc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sollicitudin vestibulum faucibus. 
+                    Integer mattis odio non augue gravida, eget vestibulum velit tincidunt. Etiam iaculis vulputate cursus. 
+                    Vestibulum ut metus non ligula 
+                </p>
+                <button type="button">Read them all!<img src="./img/arrow.png" alt="->"></button>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <div class="gallery-content">
+                <div class="gallery-tile">
+                    <h3>Our Gallery</h3>
+                    <p>These are the amazing photos that we took</p>
+                    <button type="button">See them all!</button>
+                </div>
+                <img class="pic1" src="./img/gall1.jpg" alt="image-of-an-nebula">
+                <img class="pic2" src="./img/gall2.jpg" alt="another-image-of-nebula">
+                <img class="pic3" src="./img/gall3.jpg" alt="another-image-of-another-nebula">
+                <img class="pic4" src="./img/gall4.jpg" alt="another-image-of-galaxy">
+                <img class="pic5" src="./img/gall5.jpg" alt="another-image-of-another-nebula">
+            </div>
+        </section>
+        <section id="shop" class="shop">
+            <img src="./img/mglawica.jpg" class="bgimage" alt="image-of-an-nebula">
+            <div class="shop-content">
+                <h3>We got bunch of fancy stuff waiting for you at our merch</h3>
+                <div class="shop-preview">
+                    <img src="./img/KOSZ1.png" class="shopelement" alt="image-of-item-offered-by-shop">
+                    <img src="./img/KOSZ2.png" class="shopelement" alt="image-of-item-offered-by-shop">
+                    <img src="./img/KOSZ3.png" class="shopelement" alt="image-of-item-offered-by-shop">
+                </div>
+                <button>Check them all!</button>    
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-content">
+                <h3>Contact Us</h3>
+                <p>Attention! By sending message to us you agree to collect your personal data such as your name and phone number</p>
+                <label>First name <input type="text" placeholder="enter your first name"></label>
+                <label>Last name <input type="text" placeholder="enter your last name"></label>
+                <label>Email <input type="email" placeholder="enter your email"></label>
+                <label>Phone <input type="phone" placeholder="enter your phone number(optional)"></label>
+                <label>message <textarea placeholder="write something to us :)">
+                </textarea></label>
+            </div>
+        </section>
+        <footer>
+            <p>essa</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
