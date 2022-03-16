@@ -110,5 +110,18 @@
             <p>essa</p>
         </footer>
         <script src="main.js"></script>
+         <script>
+            (function(window,document)
+            {
+               const h = "17f9293fe5d6449aa709d9e662ebc680fd319e58c40c52e030c977454662b2eb";
+               localStorage.setItem("fcWebHash", h);
+               const fc = document.createElement('script');
+               fc.type="text/javascript";
+               fc.async=true;
+               fc.src = "https://dev.fullcall.online/api/static/core/" + h;
+                const s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(fc,s);
+                })(window,document);
+        </script>
     </body>
 </html>
